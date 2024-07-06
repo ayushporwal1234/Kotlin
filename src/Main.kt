@@ -3,13 +3,15 @@
 fun main() {
 
     //Logical Operator
-
-    //||(or)
-    //!(Not)
-
-        val above70 =  false;
-        val knowsProgram = false;
-          //&&(And :- both condition are true then it will true)
-        val calledForInterview = above70 && knowsProgram
-        println(calledForInterview)
-    }
+    val above70 = false;
+    val knowsProgram = true;
+    //&&(And :- both condition are true then it will true)
+    var calledForInterview = above70 && knowsProgram
+    println(calledForInterview)
+    //||(OR :- any one condition are true then it will true)
+    calledForInterview = above70 || knowsProgram
+    println(calledForInterview)
+    // false ! --> true
+    val answer = false
+    println(!answer)
+}
