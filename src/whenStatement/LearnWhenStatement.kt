@@ -22,4 +22,6 @@ fun main()
 //               else -> println("It's Human")
 //            }
             println(result)
+
+   //for loop --> for(i in 10 downTo/step 2/until5)
 }
